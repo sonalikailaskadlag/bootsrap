@@ -1,0 +1,193 @@
+.main{
+    background: linear-gradient( rgb(2, 2, 100), rgb(15, 15, 126));
+    height: 700px;
+    width: 100%;
+    position: relative;
+    margin-top: 30px;
+}
+
+
+
+.line{
+    border-left: 0.5px solid rgb(57, 76, 126);
+    height: 600px;
+    position: absolute;
+    left: 115px;
+    top: 30px;
+    
+}
+
+.img{
+  position: absolute;
+    top: 25px;
+    left: 17px;
+    border-radius: 80px;
+    width: 80px;
+    height: 80px;
+    background: transparent url(../images/baap.png)  no-repeat padding-box;
+
+}
+.icon{
+position: absolute;
+top: 150px;
+}
+li a:hover {
+  background-color: rgb(19, 19, 146);
+}
+.img2{
+  height: 60px;
+    width: 60px;
+    border-radius: 60px;
+    position: absolute;
+    top: 578px;
+    left: 25px;
+}
+.border{
+  border:1px solid rgb(19, 19, 146) ;
+  height: 20px;
+  width: 200px;
+
+}
+.icon2{
+  position: absolute;
+  right: 0px;
+}
+.text{
+  margin-left: -96px;
+}
+/* .border2{
+  color: rgb(57, 76, 126) ;
+  position: absolute;
+  left:20px;
+
+} */
+.col1{
+  height: 100px;
+  width: 460px;
+  position: absolute;
+  left: -74px;
+  color:  rgb(57, 76, 126);
+  background-color: rgb(19, 19, 146) ;
+}
+.soyabean{
+height: 65px;
+width: 90px;
+border-radius: 10px;
+margin-top: 17px;
+}
+.height{
+  line-height: 2px;
+  font-size: 13px;
+  margin-left: -13px;
+
+}
+.stext{
+  padding-top: 13px;
+    margin-left: -10px;
+
+}
+.height1{
+  line-height: 2px;
+    font-size: 13px;
+    margin-left: 32px;
+}
+
+.stext1{
+  padding-top: 13px;
+    margin-left: 64px;
+}
+.height2{
+  line-height: 2px;
+    font-size: 13px;
+    margin-left: 59px;
+}
+.box2{
+  margin-top: 115px;
+  
+ 
+}
+.box3{
+  margin-top: 230px;
+}
+.box4{
+  margin-top: 515px;
+  
+}
+.twenty{
+  margin-top: 26px;
+    margin-left: 45px;
+    font-weight: bold;
+}
+.font{
+  font-size: 12px;
+}
+.box5{
+  height: 25px;
+  background-color: rgb(19, 19, 146) ;
+  border-radius: 10px;
+}
+.pro{
+  margin-top: 100px;
+  line-height: 0.5px;
+  font-size: 13px;
+
+}
+.req{
+  left: 450px;
+  position: absolute;
+  / top: -10px; /
+}
+.req1{
+  padding-left: 52px;
+}
+.btn1{
+  width: 93px;
+  background-image: linear-gradient(rgb(156, 247, 247),rgb(163, 118, 163));
+  margin-left: 68px;
+  height: 25px;
+  border-radius: 5px;
+}
+div button:hover{
+  background-color: rgb(19, 19, 146);
+}
+.margin{
+  margin-top: -68px;
+}
+.left1{
+  margin-left: 66px;
+}
+.left2{
+  margin-left: 53px;
+}
+.left3{
+  margin-left: 98px;
+  margin-top: 26px;
+}
+.left4{
+  margin-left: 80px;
+    margin-top: 60px;
+}
+.left5{
+  margin-left: 53px;
+}
+.left6{
+  margin-left: 56px;
+}
+.add{
+  margin-top: 63px;
+}
+.btn2{
+  width: 102px;
+  background-image: linear-gradient(rgb(156, 247, 247),rgb(163, 118, 163));
+  margin-left: -3px;
+  height: 25px;
+  border-radius: 5px;
+}
+.btn3{
+  width: 102px;
+    background-image: linear-gradient(rgb(156, 247, 247),rgb(163, 118, 163));
+    margin-left: 63px;
+    height: 25px;
+    border-radius: 5px;
+    margin-top: 142px;
+}

@@ -1,0 +1,389 @@
+.main {
+    background: transparent linear-gradient(129deg, #000000 0%, #5448a1 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    height: 700px;
+    width: 100%;
+    position: relative;
+    margin-top: 30px;
+  }
+  
+  
+  
+  .line {
+    border-left: 0.5px solid rgb(57, 76, 126);
+    height: 630px;
+    position: absolute;
+    left: 115px;
+    top: 30px;
+  
+  }
+  
+  .img {
+    position: absolute;
+    top: 25px;
+    left: 17px;
+    border-radius: 80px;
+    width: 80px;
+    height: 80px;
+    background: transparent url(../images/b\ img.png) no-repeat padding-box;
+  
+  }
+  
+  .icon {
+    position: absolute;
+    top: 150px;
+  }
+  
+  li a:hover {
+    background-color: rgb(19, 19, 146);
+  }
+  
+  .img2 {
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+    position: absolute;
+    top: 578px;
+    left: 25px;
+  }
+  
+  .border {
+    border: 1px solid rgb(19, 19, 146);
+    height: 20px;
+    width: 200px;
+  
+  }
+  
+  .icon2 {
+    position: absolute;
+    right: 0px;
+  }
+  
+  .text {
+    margin-left: -96px;
+  }
+  
+  /* .border2{
+    color: rgb(57, 76, 126) ;
+    position: absolute;
+    left:20px;
+  
+  } */
+  .col1 {
+    height: 100px;
+    width: 460px;
+    position: absolute;
+    left: -74px;
+    color: rgb(101, 142, 245);
+    background-color: rgb(24, 20, 51);
+    border-radius: 13px;
+  
+  }
+  
+  .soyabean {
+    height: 65px;
+    width: 90px;
+    border-radius: 10px;
+    margin-top: 17px;
+  }
+  
+  .height {
+    line-height: 2px;
+    font-size: 13px;
+    margin-left: -13px;
+  
+  }
+  
+  .stext {
+    padding-top: 13px;
+    margin-left: -10px;
+  
+  }
+  
+  .height1 {
+    line-height: 2px;
+    font-size: 13px;
+    margin-left: 32px;
+  }
+  
+  .stext1 {
+    padding-top: 13px;
+    margin-left: 64px;
+  }
+  
+  .height2 {
+    line-height: 2px;
+    font-size: 13px;
+    margin-left: 59px;
+  }
+  
+  .box2 {
+    margin-top: 115px;
+  
+  
+  }
+  
+  .box3 {
+    margin-top: 230px;
+  }
+  
+  .box4 {
+    margin-top: 515px;
+  
+  }
+  
+  .twenty {
+    margin-top: 26px;
+    margin-left: 45px;
+    font-weight: bold;
+    position: absolute;
+    bottom:10px;
+  }
+  
+  .font {
+    position: absolute;
+   bottom:16px;
+    font-size: 12px;
+    color: #64c3f7;
+  
+  }
+  
+  .box5 {
+    height: 25px;
+    background-color: rgb(69, 69, 126);
+    border-radius: 10px;
+  }
+  
+  /* .btn3 {
+    width: 102px;
+    background: transparent linear-gradient(235deg, #B0A6F7 0%, #66BFD0 100%) 0% 0% no-repeat padding-box;
+    margin-left: 195px;
+    height: 25px;
+    border-radius: 5px;
+    margin-top: 101px;
+    border: none;
+  } */
+  
+  .col11 {
+  
+    height: 75px;
+    width: 460px;
+    position: absolute;
+    left: -74px;
+    color: rgb(101, 142, 245);
+    background: transparent linear-gradient(16deg, #5BA6CE 0%, #58537C 100%) 0% 0% no-repeat padding-box;
+    border-radius: 11px;
+    opacity: 0.56;
+    
+  }
+  
+  .search {
+    position: absolute;
+    border: 1px solid #5BA6CE;
+    background-color: darkgray;
+    padding: 4px;
+   left:480px;
+    border: none;
+    color: #000000;
+    border-radius: 10px;
+    text-decoration: none;
+    top: 13px;
+  }
+  
+  .hori {
+    
+    color: white;
+    width: 100%;
+    margin-top: 39px;
+  }
+  
+  .assign {
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    top: 22px;
+  }
+  .cancel{
+  
+    color: white;
+    margin-left: 608px;
+    position: absolute;
+    top: 18px;
+  }
+  .man1{
+    height: 130px;
+      width: 123px;
+      border-radius: 10px;
+      margin-top: -16px;
+      margin-left: -11px;
+  }
+  .Somnath{
+    color: skyblue;
+    font-size: 12px;
+    position: absolute;
+    left: 8px;
+    text-decoration: none;
+  }
+  .Paregaon{
+    color: white;
+    font-size: 12px;
+    margin-top: 13px;
+    position: absolute;
+    top: 140px;
+    left: 13px;
+    text-decoration: none;
+  }
+  .man2{
+    height: 130px;
+      width: 115px;
+      border-radius: 10px;
+      margin-top: -16px;
+      margin-left: -2px;
+   
+  }
+  .man3{
+    height: 130px;
+      width: 110px;
+      border-radius: 10px;
+      margin-top: -16px;
+      margin-left: 4px;
+  }
+  .man4{
+    height: 130px;
+    width: 106px;
+    border-radius: 10px;
+    margin-top: -16px;
+    margin-left: 5px;
+  }
+  .man5{
+    height: 127px;
+    width: 106px;
+    border-radius: 10px;
+    margin-top: -16px;
+    margin-left: 0px;
+  }
+  .Somnath2{
+    color: skyblue;
+    font-size: 12px;
+    position: absolute;
+    margin-left:10px;
+    text-decoration: none;
+  }
+  .Paregaon2{
+    position: absolute;
+      color: white;
+      font-size: 12px;
+      top: 155px;
+      left: 283px;
+      text-decoration: none;
+  }
+   
+  
+  .btn1{
+    / position: absolute; /
+    cursor: pointer;
+    margin-top: 46px;
+      height: 30px;
+      width: 97px;
+      border-radius: 15px;
+      border: none;
+      background: transparent linear-gradient(277deg, #B0A6F7 0%, #6FBCD5 100%) 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 3px 6px #00000029;
+  font-size: 13px;
+  }
+  .btn2{
+    
+    margin-top: 46px;
+    cursor: pointer;
+      height: 30px;
+      width: 97px;
+      border-radius: 15px;
+      border: none;
+      background: transparent linear-gradient(277deg, #B0A6F7 0%, #6FBCD5 100%) 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 3px 6px #00000029;
+  font-size: 13px;
+  }
+  .btn3{
+   
+    margin-top: 46px;
+    cursor: pointer;
+      height: 30px;
+      width: 97px;
+      border-radius: 15px;
+      border: none;
+      background: transparent linear-gradient(277deg, #B0A6F7 0%, #6FBCD5 100%) 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 3px 6px #00000029;
+  font-size: 13px;
+  }
+  .btn4{
+   
+    margin-top: 46px;
+    cursor: pointer;
+      height: 30px;
+      width: 97px;
+      border-radius: 15px;
+      border: none;
+      background: transparent linear-gradient(277deg, #B0A6F7 0%, #6FBCD5 100%) 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 3px 6px #00000029;
+  font-size: 13px;
+  }
+  .btn5{
+   
+    margin-top: 46px;
+    cursor: pointer;
+      height: 30px;
+      width: 97px;
+      border-radius: 15px;
+      border: none;
+      background: transparent linear-gradient(277deg, #B0A6F7 0%, #6FBCD5 100%) 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 3px 6px #00000029;
+  font-size: 13px;
+  }
+  .Somnath3{
+    color: skyblue;
+    font-size: 12px;
+    position: absolute;
+    margin-left: 20px;
+    text-decoration: none;
+  }
+  .Paregaon3{
+    position: absolute;
+      color: white;
+      font-size: 12px;
+      top: 155px;
+      left: 143px;
+      text-decoration: none;
+  }
+  .Somnath4{
+    color: skyblue;
+      font-size: 12px;
+      position: absolute;
+      margin-left: 17px;
+      text-decoration: none;
+  }
+  
+  .Paregaon4{
+    position: absolute;
+      color: white;
+      font-size: 12px;
+      top: 155px;
+      left: 406px;
+      text-decoration: none;
+  }
+  .Somnath5{
+    color: skyblue;
+      font-size: 12px;
+      position: absolute;
+      margin-left: 10px;
+      text-decoration: none;
+  }
+  .Paregaon5{
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    top: 155px;
+    left: 531px;
+    text-decoration: none;
+  }
+  
+  

@@ -1,0 +1,58 @@
+.left{
+    width: 30%;
+    background-color:antiquewhite;
+    height: 100vh;
+    float: left;
+     padding-left: 10px;
+  
+}
+.a{
+    margin-top: 42px;
+}
+.fa{
+    margin-top: 20px;
+}
+.dash{
+    margin-top: 20px;
+}
+
+.border{
+border-radius: 15px;}
+
+.right{
+float: right;
+width: 70%;
+position: relative;
+background-color: bisque;
+}
+
+/* .bar{
+    list-style-type: none;
+    display: flex;
+   
+    position:absolute;
+}
+.she{
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+  } */ */
+ 
+
+  .right{
+    float: right;
+    height: 700px;
+    position: relative;
+    width: 80%;
+    background-color: azure;
+  }
+
+  

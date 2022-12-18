@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../asset/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .left-side {
+            float: left;
+            background-color: rgb(37, 103, 226);
+            width: 20%;
+            height: 700px;
+
+            color: white;
+
+
+        }
+
+        .Notoboto {
+
+            color: aliceblue;
+            margin-left: 20px;
+
+        }
+
+        h3 {
+            color: aliceblue;
+            font-size: 25px;
+        }
+
+        .btn {
+
+            border-radius: 30px;
+            border: none;
+            right: 30px;
+            bottom: 18px;
+            position: absolute;
+
+        }
+
+        .search {
+
+            width: 83%;
+            margin-left: 20px;
+            height: 30px;
+            border-radius: 5px;
+            background-color: skyblue;
+            border: none;
+            color: white;
+
+
+        }
+
+        icon {
+            position: relative;
+
+        }
+
+        .right-side {
+            float: right;
+            background-color: rgb(203, 199, 224);
+            width: 80%;
+
+            height: 700px;
+            position: relative;
+        }
+
+        hr {
+            background-color: white;
+            margin-right: 30px;
+            margin-left: 10px;
+        }
+
+        .position {
+            position: relative;
+        }
+
+        .dot {
+            margin-left: 90px;
+        }
+
+        .photo {
+            height: 20px;
+            width: 20px;
+            border-radius: 20px;
+            margin-bottom: 10px;
+            margin-left: 18px;
+        }
+
+        .button {
+
+            border-radius: 18px;
+            border: none;
+            height: 18px;
+            width: 18px;
+            right: 30px;
+            bottom: 15px;
+            position: absolute;
+        }
+
+        .logout {
+            margin-right: 10px;
+            margin-left: 20px;
+        }
+
+        .right1 {
+            float: left;
+            background-color: aliceblue;
+            width: 45%;
+            height: 650px;
+            margin-top: 50px;
+            margin-left: 40px;
+        }
+
+        .right2 {
+            float: left;
+            background-color: aliceblue;
+            width: 45%;
+            height: 650px;
+            margin-top: 50px;
+            margin-left: 5px;
+        }
+
+        h4 {
+            margin-left: 2px;
+        }
+
+        h5 {
+            margin-left: 19px;
+        }
+
+        .border {
+            border: 1px;
+            height: 30px;
+            width: 90%;
+            position: absolute;
+            background-color: aliceblue;
+            top: 10px;
+            left: 40px;
+        }
+
+        .Ltd {
+            margin-left: 10px;
+            margin-top: 6px;
+        }
+
+        .downarrow {
+            margin-top: 10px;
+        }
+
+        .star {
+            background-color: rgb(252, 240, 227);
+            color: chocolate;
+            border: none;
+            height: 20px;
+            top: 5px;
+            position: absolute;
+            left: 644px;
+        }
+
+        .companylogo {
+            color: mediumslateblue;
+        }
+
+        .bell {
+            position: absolute;
+            left: 818px;
+            top: 7px;
+            color: steelblue;
+        }
+
+        .file {
+            position: absolute;
+            left: 758px;
+            top: 7px;
+            color: steelblue;
+        }
+
+        .info {
+            position: absolute;
+            left: 785px;
+            top: 7px;
+            color: steelblue;
+        }
+
+        .box {
+            border: 1px solid rgb(219, 217, 217);
+            height: 200px;
+            background-color: white;
+            margin-top: 10px;
+            margin-left: 7px;
+            margin-right: 7px;
+
+        }
+
+        .project {
+            padding-top: 10px;
+            margin-top: 5px;
+        }
+
+        img {
+            height: 254px;
+    width: 393px;
+    /* border-radius: 50px; */
+    margin-left: 20px;
+
+        }
+
+        .name {
+            margin-left: 50px;
+            font-size: 15px;
+
+        }
+
+        .dotdot {
+            margin-left: 196px;
+            position: absolute;
+
+        }
+
+        .others {
+            margin-left: 65px;
+            font-size: 15px;
+        }
+
+        .tablet {
+            margin-left: 57px;
+            font-size: 15px;
+        }
+
+        .mobile {
+            margin-left: 35px;
+            font-size: 15px;
+        }
+
+        .desktop {
+            margin-left: 60px;
+            font-size: 15px;
+        }
+
+        .boxes {
+            border: 1px solid rgb(219, 217, 217);
+            height: 400px;
+            background-color: white;
+            margin-top: 15px;
+            margin-left: 7px;
+            margin-right: 7px;
+
+        }
+        .act{
+            color: black;
+        }
+        .doubledot{
+            margin-left: 272px;
+            position: absolute; 
+        }
+        .graph{
+            height:300px;
+            width: 90%;
+           
+        }
+        .smallbox{
+            
+            border: 1px solid rgb(219, 217, 217);
+            background-color: white;
+            height: 30px;
+            width: 95%;
+            margin-left: 10px;
+        }
+        b{
+            /* padding: 19px 0px 0px 172px; */
+            margin-left: 142px;
+    font-size: 20px;
+            
+        }
+
+        .border1{
+            margin-left: 142px;
+    font-size: 20px;
+    border: dotted;
+    padding: 10px;
+    width: 100%;
+    height: 30px;
+    width: 104%;
+    margin-left: 118px;
+}
+
+        }
+        P{
+            padding-left: 10px;
+        }
+        .blckbox{
+            border: 1px solid rgb(219, 217, 217);
+            height: 250px;
+            background-color: rgb(99, 103, 107);
+            margin-top: 15px;
+            margin-left: 7px;
+            margin-right: 7px;
+color: white;
+        }
+.bubba{
+    position: relative;
+    margin-left: 10px;
+}
+.pan{
+    position: absolute;
+    right: 105px;
+    margin: -45px 0px 0px 20px;
+}
+.but1{
+    position: relative;
+    padding: 7px;
+    margin-left: 10px;
+
+}
+.pro{
+    position: absolute;
+    right: 101px;
+}
+.clk{
+    margin-left: 15px;
+}
+.word{
+    margin-left: 10px;
+    position: relative;
+}
+.wrk{
+    position: absolute;
+    right: 101px;
+    font-size: small;
+}
+.f1{
+    margin-left: 10px;
+}
+
+.right3{
+    float: left;
+            background-color: wheat;
+            width: 97%;
+            height: 259px;
+            margin-top: 20px;
+            margin-left: 5px;
+}
+.mem{
+    position: relative;
+    margin-left: 10px;
+}
+.doubledot1{
+    position: absolute;right: 105px;
+    margin: -31px 0px 0px 20px;
+
+}
+.msg{
+    position: absolute;right: 105px;
+    margin: -31px 0px 0px 20px;
+
+}
+.photo{
+    position: relative;
+}
+.Notoboto1{
+    position: absolute;
+    color: black;
+    right: 110px;
+}
+
+    </style>
+
+
+
+</head>
+
+<body>
+    <div class="left-side">
+        <h3><i class="fa-solid fa-lock Notoboto"></i> Notoboto</h3>
+        <div class="icon">
+            <i class="fa-solid fa-magnifying-glass" style="position:absolute ;left:242px;padding-top:8px;"></i>
+            <input type="text" placeholder="Search.." class="search ">
+        </div>
+        <div>
+            <p>
+            <h4> <i class="fa-solid fa-clipboard Notoboto"></i> Dashboard</h4>
+            <h4><i class="fa-solid fa-message Notoboto"></i> Messages</h4>
+            <div class="position">
+                <button class="btn">8</button>
+            </div>
+        </div>
+
+        <div>
+            <h4><i class="fa-brands fa-product-hunt Notoboto"></i> Products</h4>
+            <h4><i class="fa-solid fa-file Notoboto"></i> Documents</h4>
+            <h4><i class="fa-solid fa-gear Notoboto"></i> Settings</h4>
+            </p>
+        </div>
+
+
+        <hr>
+
+        <h5>DIRECT MESSAGES <i class="fa-solid fa-ellipsis dot"></i></h5>
+        <div class="position:relative">
+            <img src="../asset/img/face.png" alt="photo" class="photo"> Thomas Shelby
+        </div>
+        <div class="position">
+            <img src="../asset/img/face.png" alt="photo" class="photo"> Arthur Shelby <button
+                class="button">4</button>
+        </div>
+        <div>
+            <img src="../asset/img/face.png" alt="photo" class="photo"> Jhon Shelby
+        </div>
+        <hr style="background-color:white ;margin-right: 30px;">
+
+        <i class="fa-solid fa-arrow-right-from-bracket logout"></i>Log out
+
+
+    </div>
+
+    <div class="right-side">
+        <div class="border">
+            <i class="fa-brands fa-quinscape Ltd companylogo"></i> Shelby Company Ltd. <i
+                class="fa-solid fa-angle-down downarrow"></i>
+            <button class="star"><i class="fa-solid fa-star"></i>Upgrade Pro</button>
+            <span><i class="fa-solid fa-inbox file"></i></span>
+            <span><i class="fa-solid fa-bell bell"></i></span>
+            <span><i class="fa-solid fa-circle-info info"></i></span>
+        </div>
+
+        <div class="right1">
+            <div class="box">
+                <h5 class="project">PROJECT CATEGORIES <i class="fa-solid fa-ellipsis dotdot"></i></h5>
+               <span><img src="../asset/img/IMG-20221105-WA0034.jpg">   </span>
+                <!-- <span><img src="../asset/image/bar1.jpg" alt="progress"></span>
+                <span><img src="../asset/image/bar2.png" alt="progress"></span>
+                <span><img src="../asset/image/bar3.jpg" alt=""></span>
+                <span class="gol"><img src="../asset/image/progress.jpg" alt=""></span> -->
+                <!-- <label class="mobile">MOBILE</label>
+                <label class="desktop">DESKTOP</label>
+                <label class="tablet">TABLET</label>
+                <label class="others">OTHERS</label> -->
+            </div>
+            <div class="boxes">
+<h5 class="act">ACTIVITIES <i class="fa-solid fa-ellipsis doubledot"></i></h5>
+<!-- <img src="../asset/img/Poverty_graph.jpeg  class="graph"> -->
+<img src="../asset/img/IMG-20221105-WA0035.jpg">
+<div class="smallbox">
+<b>Manage Activities</b>
+</div>
+            </div>
+        </div>
+
+
+
+        <div class="right2 ">
+           <P>ONGOING PROJECTS</P>
+           <div class="blckbox">
+<h3 class="bubba">Bubba Gump Shrimp</h3> <i class="fa-solid fa-pencil pan"></i>
+<p style="font-size:15px ;">UL/UX,Branding</p> 
+<button class="but1">HIGH PRIORITY</button> <span class="pro"> progrss<br> 85%</span><br><br>
+<hr style="color: white;size:5px">
+<br>
+<i class="fa-regular fa-clock clk"></i><span class="word">Due in 3 Days</span><i class="fa-solid fa-check wrk"> 4/6 <i class="fa-regular fa-file f1">  8 </i></i> 
+
+
+           </div> 
+          
+          <br>
+           <div>
+            <b class="border1">Add New Task</b>
+           </div>
+           <div class="right3">
+<p class="mem">Member Status</p><i class="fa-solid fa-ellipsis doubledot1"></i>
+<div class="position:relative">
+   <img src="../asset/img/face.png" alt="photo" class="photo"> Thomas Shelby <i class="fa-solid fa-message Notoboto1"></i>
+</div>
+<br><br>
+<hr style="color: black;size:4px">
+<br><br>
+<div>
+    <img src="../asset/img/face.png" alt="photo" class="photo"> Thomas Shelby <i class="fa-solid fa-message Notoboto1"></i>
+</div>
+           </div>
+           
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+
+.container-fluid {
+    background: linear-gradient(#000000, #211E36, #403B6A, #9B8EFF);
+    height: 100vh;
+}
+
+.img {
+    padding-top: 20px;
+    float: right;
+    color: #fff;
+    margin-right: 26px;
+    /* margin-left: 31px; */
+}
+
+.input {
+    
+    margin: 20%;
+    text-align: center;
+    background: linear-gradient(#000000);
+}
+.fa-solid{
+font-size: 25px;
+}
+.te{
+    margin-left: 9px;
+    background: transparent;
+    /* border: 1px solid; */
+    background-color: #403B6A;
+    padding: 4px;
+    margin-top: -5px;
+    margin-left: 1px;
+}
+.fold{
+    margin-right: 5px;
+}

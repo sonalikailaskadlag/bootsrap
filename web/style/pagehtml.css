@@ -1,0 +1,227 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap'); */
+
+body{
+    padding: 0;
+    margin: 0;
+}
+.section{
+    background-image: linear-gradient(to right, #000000,#282541);
+    /* height: 100vh; */
+}
+
+.img1{
+    border-radius: 35px;
+   /* margin-top: 260%; */
+   margin-top: 70%;
+   margin-left: 10%;
+}
+.text{
+    margin-left: 16%;
+}
+.vl{
+    border-right: 1px solid gray;
+    height: 100vh;
+   
+}
+.vll{
+    /* width: 200px; */
+    width: 782px;
+    margin-top: 25px;
+    height: 1px;
+    border: 1px solid #d0cfdb;
+ }
+ input{
+    
+    margin-right: 38px;
+    width: 118px;
+    /* margin-left: 30px; */
+    border-radius: 30px;
+   background-color: #3E347E;
+    border: none;
+}
+.left{
+    float: right;
+    background-image: linear-gradient( 129deg, #000000 0%, #9B8EFF 100% );
+}
+.girl{
+   height: 90%;
+   width: 140px;
+   border: none;
+   border-radius: 20px;
+   background-color: #3E347E;
+}
+.profile{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+}
+.text2{
+    color: rgb(243, 212, 247);
+    font-size: 12px;
+    text-align: center;
+   
+}
+.tex{
+    margin-top: -19px;
+    margin-left: -120px;
+    color: rgb(243, 212, 247);
+    font-size: 12px;
+    text-align: center;
+}
+.texx{
+    margin-top: -19px;
+    margin-left: -31px;
+    color: rgb(243, 212, 247);
+    font-size: 12px;
+    text-align: center;
+}
+
+.text3{
+    text-align: center;
+}
+.right{
+    float: left;
+    background-image: linear-gradient(#000000);
+}
+.h33{
+    color: #abddf0;
+    font-size: 12px;
+    /* font: var(--unnamed-font-style-normal) normal bold var(--unnamed-font-size-10)/24px Apercu Pro; */
+}
+.h333{
+    color: #59D0D3;
+    font-size: 15px;}
+.text5{
+    font-size: 10px;
+}
+.p111{
+    margin-left: 127px;
+    font-size: 13px;
+    margin-top: -73px;
+    /* margin-top: -49px; */
+    /* margin-left: 20px;
+    font-size: 13px; */
+}
+.im{
+    margin-top: -103px;
+    margin-left: 90px;
+}
+
+
+.mm{
+    position: relative;
+    
+
+}
+.mm1{
+    position: absolute;
+    color: #fff;
+}
+
+.clz{
+    position: relative;
+    color: #fff;
+    margin-top: 20px;
+}
+.clz1{
+    position: absolute;
+    /* margin-right: 30px;
+     */
+     margin-left: 260px;
+     margin-top: -25px;
+}
+.cancel{
+    margin-left: 400px;
+    margin-top: -2px;
+  }
+  .horizontal{
+    background-color:white;
+    color: rgb(129, 178, 221);
+    margin-top: 30px;
+  }
+  .mletter{
+    font-family: 'Cedarville Cursive', cursive;
+     font-size: 22PX;
+      margin-top: 15px;
+      margin-left: 16px;
+      font-family: 'Great Vibes', cursive;
+      color:skyblue;
+      font-weight: 10px;
+      padding-top: 18px;
+     
+  }
+  .roletter{
+    font-size: 20PX;
+  
+    margin-top: 18px;
+    margin-left:16px;
+    font-family: 'Great Vibes', cursive;
+    color:skyblue;
+  
+    font-weight:10px ;
+    padding-top: 18px;
+  }
+  .box{
+    height: 75px;
+    width: 93%;
+    background-color: rgb(32, 34, 34);
+    margin-left: 20px;
+  }
+  .market{
+  position: absolute;
+  color: white;
+  left: 100px;
+  top: 115px;
+  font-size: 13px;
+  }
+  .market2{
+    position: absolute;
+    color: white;
+  left: 100px;
+  top: 143px;
+  font-size: 9px;
+  
+  }
+  .box2{
+    height: 75px;
+    width: 93%;
+    background-color: rgb(32, 34, 34);
+    margin-left: 20px;
+    margin-top: 10px;
+    
+  }
+  .market3{
+    position: absolute;
+      color: white;
+      left: 101px;
+      top: 205px;
+      font-size: 13px
+    }
+    .market4{
+      position: absolute;
+      color: white;
+      left: 101px;
+      top: 231px;
+      font-size: 9px
+    
+    }
+    .abcc{
+
+        float: right;
+    }
+ .vll1{
+    width: 754px;
+      border:#575757 0.3px solid ; 
+ }
+ .rena{
+    font-size: 15px;
+    margin-left: 140px;
+    margin-top: -140px;
+ }
+
+ .rena2{
+    font-size: 15px;
+    margin-left: 140px;
+    margin-top: -150px;
+ }
+ 

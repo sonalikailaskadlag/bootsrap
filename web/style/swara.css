@@ -1,0 +1,648 @@
+.container-fluid {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    background-color: rgb(33, 22, 22);
+    color: white;
+}
+
+.col1 {
+    background-color: rgb(42, 13, 13);
+    color: white;
+    / height: 100vh; /
+    width: 25%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.bard {
+    font-size: 15px;
+}
+
+.cross {
+    font-size: 20px;
+}
+
+.left {
+    list-style-type: none;
+}
+
+.img {
+    margin: 50px 0 0 20px;
+}
+
+.col2 {
+    background-color: rgb(238, 204, 222);
+    height: 100vh;
+}
+
+.name {
+    font-size: 25px;
+    margin-top: 110px;
+}
+
+.nem {
+    font-size: 70px;
+    color: palevioletred;
+}
+
+.para {
+    font-size: 15px;
+}
+
+.li {
+    font-size: 12px;
+}
+
+.twit {
+    font-size: 12px;
+}
+
+.insta {
+    font-size: 12px;
+}
+
+.control {
+    padding-left: 30px;
+    display: flex;
+    margin-top: 70px;
+    text-align: center;
+    color: white;
+    vertical-align: center;
+    align-items: center;
+}
+
+.control .line {
+    width: 100px;
+    height: 4px;
+    background: #fff;
+    margin-left: 40px;
+    margin-top: -13px;
+}
+
+.p1 {
+    margin-right: -29px;
+    color: #f78da7;
+}
+
+.pk {
+    color: #bd4261;
+}
+
+.bar {
+    margin-left: 10px;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.col3 {
+    width: auto;
+    height: 100vh;
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 25%;
+    transition: 0.4ms;
+    overflow: hidden;
+    background-color: rgb(207, 120, 150);
+}
+
+.icon,
+.Service {
+    padding-left: 0;
+    padding-top: 80px;
+    / background-color: rgb(33, 22, 22); /
+    color: rgb(239, 182, 182);
+}
+
+.serv {
+    font-size: 15px;
+}
+
+.serv1 {
+    font-size: 13px;
+}
+
+.disign {
+    font-size: 13px;
+    padding: 20px;
+    background-color: rgb(32, 17, 17);
+}
+
+.cover {
+    font-size: 13px;
+}
+
+.button {
+    background-color: rgb(32, 17, 17);
+    border-color: rgb(233, 129, 147);
+    color: white;
+    padding: 5px;
+    text-align: center;
+    / text-decoration: none; /
+    font-size: 10px;
+    margin: 4px 2px;
+    width: 80px;
+    margin-left: 0;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.btn {
+    border: none;
+    margin-top: 20px;
+}
+
+.button1 {
+    background-color: rgb(32, 17, 17);
+    border-color: rgb(233, 129, 147);
+    text-align: center;
+    / margin-top: 10%; /
+    / text-decoration: none; /
+    font-size: 10px;
+    margin: 4px 2px;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.skill {
+    margin-top: 50px;
+}
+
+#myProgress {
+    margin-left: 20px;
+    width: 70%;
+    background-color: #ddd;
+}
+
+#myBar {
+    width: 75%;
+    height: 25px;
+    background-color: #f25959;
+    line-height: 30px;
+    color: white;
+}
+
+#myProgress1 {
+    margin-left: 20px;
+    width: 70%;
+    background-color: #ddd;
+}
+
+#myBar1 {
+    width: 90%;
+    height: 25px;
+    background-color: #f25959;
+    line-height: 30px;
+    color: white;
+}
+
+.pres {
+    color: #833535;
+}
+
+#myProgress2 {
+    margin-left: 20px;
+    width: 70%;
+    background-color: #ddd;
+}
+
+#myBar2 {
+    width: 48%;
+    height: 25px;
+    background-color: #f25959;
+    line-height: 30px;
+    color: white;
+}
+
+#myProgress3 {
+    margin-left: 20px;
+    width: 70%;
+    background-color: #ddd;
+}
+
+#myBar3 {
+    width: 62%;
+    height: 25px;
+    background-color: #f25959;
+    line-height: 30px;
+    color: white;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    overflow: hidden;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 0;
+    transition: .5s ease;
+    background-color: #d64444;
+}
+
+.container:hover .overlay {
+    width: 100%;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+/* circle bar*/
+@keyframes growProgressBar {
+
+    0%,
+    33% {
+        --pgPercentage: 0;
+    }
+
+    100% {
+        --pgPercentage: var(--value);
+    }
+}
+
+@property --pgPercentage {
+    syntax: '<number>';
+    inherits: false;
+    initial-value: 0;
+}
+
+div[role="progressbar"] {
+    --size: 12rem;
+    --fg: #ce4f58;
+    --bg: #724848;
+    --pgPercentage: var(--value);
+    animation: growProgressBar 3s 1 forwards;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background:
+        radial-gradient(closest-side, #1a0f0f 70%, transparent 0 99.9%, #1a0f0f 0),
+        conic-gradient(var(--fg) calc(var(--pgPercentage) * 1%), var(--bg) 0);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: calc(var(--size) / 5);
+    color: var(--fg);
+    margin-left: 15px;
+}
+
+div[role="progressbar"]::before {
+    counter-reset: percentage var(--value);
+    content: counter(percentage) '%';
+}
+
+.h {
+    color: #ce4f58;
+    margin-left: 20px;
+}
+
+.p {
+    color: #ce4f58;
+    margin-left: 60px;
+}
+
+.c-timeline__item {
+    position: relative;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.c-timeline__item:last-child .c-timeline__content:before {
+    display: none;
+}
+
+.c-timeline__content {
+    flex: 1;
+    position: relative;
+    order: 1;
+    padding-left: 1.5rem;
+    padding-bottom: 3rem;
+}
+
+.c-timeline__content:before {
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 0;
+    height: 100%;
+    width: 2px;
+    background-color: #f25959;
+    / background-color: lightgrey; /
+}
+
+.c-timeline__content:after {
+    content: "";
+    position: absolute;
+    left: calc(0px - 11px);
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(32, 17, 17);
+    z-index: 1;
+    border: 2px solid #f25959;
+    border-radius: 50%;
+}
+
+.c-timeline__title {
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 0.5rem;
+    color: #A88590;
+}
+
+.c-timeline__title:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.c-timeline__desc {
+    color: grey;
+}
+
+time {
+    text-align: end;
+    flex: 0 0 100px;
+    min-width: 0;
+    overflow-wrap: break-word;
+    padding-bottom: 1rem;
+    color: #A88590;
+}
+
+time:hover {
+    color: white;
+    cursor: pointer;
+}
+
+Non-demo CSS .wrapper {
+    max-width: 1000px;
+    margin: 2rem auto 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+        "Helvetica Neue", sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.getin {
+    margin-top: 60px;
+}
+
+.get {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.get1 {
+    font-size: 12px;
+}
+
+.box {
+    margin-left: 25px;
+    margin-top: 60px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    background-color: #ce4f58;
+}
+
+.input {
+    font-size: 15px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    width: 90%;
+    outline: none;
+    color: white;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.input2 {
+    background-color: transparent;
+    border: none;
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 90%;
+    outline: none;
+    color: white;
+}
+
+::placeholder {
+    color: white;
+}
+
+.btn2 {
+    background-color: transparent;
+    border-color: white;
+    height: 50px;
+    width: 90%;
+    margin-top: 80px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.btnn {
+
+    border: none;
+    background-color: rgb(33, 22, 22);
+    margin-left: 75%;
+    width: 20%;
+    color: #f25959;
+}
+
+.dropdown-item {
+    background-color: rgb(33, 22, 22);
+}
+
+.lbar {
+    font-size: large;
+}
+
+.rbar {
+    float: left;
+    background-color: rgb(33, 22, 22);
+    color: #f25959;
+}
+
+.colfr {
+    float: right;
+}
+
+@media (max-width: 590px) {
+    .col1 {
+        display: none;
+    }
+
+    .bard {
+        display: none;
+    }
+
+    .col2 {
+        margin-left: -15%;
+        margin-right: 0%;
+        width: 100%;
+    }
+
+    .col3 {
+
+        display: none;
+    }
+
+    .sidebar {
+
+        display: none;
+    }
+
+    .bar {
+        margin-left: -15%;
+
+    }
+
+    .control {
+        margin-left: -15%;
+    }
+
+    .expi {
+        margin-left: 20px;
+    }
+
+    .step {
+        margin-left: -35%;
+        font-size: 10px;
+        width: 100%;
+        margin-right: 50px;
+    }
+
+    .cover {
+        width: 100%;
+        margin-left: -20%;
+        margin-right: 0;
+    }
+
+    .getinc {
+        margin-left: -15%;
+    }
+
+    .sqbar {
+        margin-left: -15%;
+    }
+
+    .box {
+        width: 100%;
+        margin-left: -18%;
+        padding-right: 10px;
+    }
+
+    .image {
+        margin-left: -15%;
+        width: 100%;
+    }
+
+    .Service {
+        margin-left: -15%;
+    }
+
+    .skill {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .icon {
+        margin-left: -15%;
+        width: 100%;
+    }
+
+    .li {
+        margin-left: -10%;
+        padding-left: 0;
+    }
+
+    .twit {
+        padding-left: 0;
+    }
+
+    .insta {
+        padding-left: 0;
+    }
+    .overlay{
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .col1 {
+        / display: none; /
+    }
+
+    .cross {
+        margin-top: 20px;
+        margin-left: 80px;
+    }
+
+    .col2 {
+        width: 100%;
+    }
+
+    .col3 {
+        width: 100%;
+    }
+
+    .btn {
+        margin-left: 0;
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .button {
+        margin-left: 0;
+        width: 75px;
+    }
+
+    .button1 {
+        padding-left: 0;
+        width: 92px;
+    }
+
+    .colr {
+        display: none;
+    }
+}
+
+@media (max-width: 590px) {
+    .colr {
+        display: block;
+    }
+}

@@ -1,0 +1,78 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.section{
+    background-image: linear-gradient(to right, #000000,#3E347E);
+    height: 255vh;
+}
+
+.img1{
+    border-radius: 35px;
+   margin-top: 260%;
+   margin-left: 10%;
+}
+.text{
+    margin-left: 20%;
+    color: #000000;
+}
+.vl{
+    border-right: 1px solid gray;
+    height: 100vh;
+   
+}
+.p{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.vll{
+    top: 113px;
+    left: 217px;
+    /* width: 1641px; */
+    width: 854px;
+    height: 1px;
+    border: 0.3px solid #101010; 
+    }
+ .left{
+    float: right;
+    background-image: linear-gradient(#000000,#403B6A);
+    /* color:#000000; */
+   } 
+ 
+  .mic{
+     
+     font-size: 22px;
+     position: absolute;
+  } 
+  .box{
+    background-color: #403B6A;
+    border-radius: 7px;
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+  }
+  .con{
+    font-size: 12px;
+    color: white;
+  }
+  .cop{
+    font-size: 15px;
+  }
+  .te{
+    position: relative;
+    top: 20%;
+  }
+  .te1{
+    position: absolute;
+    top: 45px;
+  }
+  .pare{
+    font-size: 12px;
+  }
+  .hr2{
+    color: rgb(56, 51, 70);
+    /* width: 750px; */
+    width: 894px;
+    border: 1px solid ;    
+  }
+ 
